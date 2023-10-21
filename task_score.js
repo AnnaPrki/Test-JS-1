@@ -10,5 +10,4 @@ let surName = "Petrovic";
 let fullName = firstName + " " + surName;
 console.log(fullName);
 
-
-console.log(`Student ${firstName.slice(0,1)}.${surName} had ${total} scores.`)
+console.log(`Student ${firstName.slice(0, 1)}.${surName} had ${total} scores.`);
