@@ -33,9 +33,6 @@ const players = [
     for (player in players) {
         scorePointsArr.push(players[player].scorePoints);
     }
+    const maxScore = Math.max(...scorePointsArr);
 
-    console.log(Math.max.apply(null,scorePointsArr))
-
-    const maxScorePoints ={...players, ...players, ...Math.max.apply(null,scorePointsArr)}
-    
-    console.log(maxScorePoints)
+    console.log("Максимальное количество очков:", maxScore);
