@@ -42,7 +42,7 @@ console.log(testUserSimple)
 //console.log(testUserSimple)
 
 if(testUserSimple.age > 30){
-    console.log("we can offer a credit for you")
+   console.log("we can offer a credit for you")
 } else {
     console.log("You are too young")
 }
