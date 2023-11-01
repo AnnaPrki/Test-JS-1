@@ -18,6 +18,6 @@
  expencesExamples.forEach(function(example, index) {
     const yearlyExpences = example.yearlyExpences;
     const calculatedExpense = expensesCalculation(yearlyExpences);
-    console.log("Тест " + (index + 1) + ": Сумма затрат выше 1000 для года: " + calculatedExpense + "ед.");
+    console.log("Тест " + (index + 1) + ": Сумма затрат выше 1000 за год: " + calculatedExpense + "ед.");
   });
   
